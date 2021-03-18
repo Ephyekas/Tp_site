@@ -44,6 +44,21 @@ img
     height: 400px;
 
 }
+.ab
+{
+    display: flex;
+    justify-content: space-around;
+    float: left;
+
+}
+
+.img2
+{
+    width:70%;
+    height: 70%;
+    margin-top: 200px;
+
+}
 
 .art2
 {
