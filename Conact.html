@@ -22,21 +22,30 @@
                 201 avenue de la Pompignane<br>
                 34064 Montpellier cedex 02</p>
 
-                <h2>Formulaire de contact</h2>
+                <h1>Formulaire de contact</h1>
+                <form method="post" action="register.php">
                 <label for="nom">Nom (obligatoire)</label><br>
                 <input type="text" name="nom" id="nom"> <br></br>
+
                 <label for="prenom">Prénom (obligatoire)</label><br>
                 <input type="text" name="prenom" id="prenom"><br></br>
+
                 <label for="adresse">Adresse</label><br>
                 <input type="text" name="adresse" id="adresse"><br></br>
+
                 <label for="postal">Code postal</label><br>
                 <input type="text" name="postal" id="postal"><br></br>
+
                 <label for="organisme">Organisme</label><br>
                 <input type="text" name="organisme" id="organisme"><br></br>
+
                 <label for="phone">Téléphone</label><br>
                 <input type="text" name="phone" id="phone"><br></br>
+
                 <label for="courriel">Courriel (obligatoire)</label><br>
-                <input type="text" name="courriel" id="courriel"> <br></br>
+                <input type="text" name="courriel" id="courriel" 
+                       pattern="[a-z0-9._-]+@[a-z0-9._-]+\.[a-z] {2,6}"> <br></br>
+
                 <label for="message">Message</label><br>
                 <textarea name="textarea" rows="5" cols="30" placeholder="Ecrire un message"></textarea><br></br>
                 <input type="submit" id="submit">
