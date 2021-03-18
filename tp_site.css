@@ -49,13 +49,16 @@ div[id*="haut"]
     display: flex;
     align-items: flex-start;
     margin-top: -50px;
-    justify-content: space-evenly;
+    margin-left: -100px;
+    justify-content: center
 } 
 .histo
 {
     width:300px;
     height:600px;
     padding: 20px;
+    text-align: right;
+    border-right: 1px dashed black;
 
 }
 .img2
@@ -65,15 +68,16 @@ div[id*="haut"]
     width:200px;
     height:200px;
     margin-top:100px;
+    
 
 }
 
 .art2
 {
-    border:2px solid rgb(255, 255, 255);
-    border-radius: 40px;
-
-    flex: 0.75;
+    border-top:2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    flex: 0.50;
+    width: 500px;
     padding: 20px;
     background-color:white;
 
