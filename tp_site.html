@@ -10,27 +10,37 @@
     </head>
 
     <body>
+        <header>
+            
+            <nav class="navbar" >
+               <img id="accueil_haut" src="6a00d8341bfe5d53ef01b7c94746d0970b-450wi.jpg">
         
-        <img src="6a00d8341bfe5d53ef01b7c94746d0970b-450wi.jpg">
+        <div id="container" id="nav_haut"> <!--Mieux organiser la barre de navigation en CSS-->
         
-        <div id="container"> <!--Mieux organiser la barre de navigation en CSS-->
-        <nav class="navbar">
             <a class="navbar-html" href="#">HTML</a>
             <a class="navbar-css" href="#">CSS</a>
             <a class="navbar-javascript" href="#">JAVASCRIPT</a>
-            <a class="navbar-minijeux" href="#">MINI-JEUX</a>
-        </nav>
-        </div>  
-        <div class="contact">
+            <a class="navbar-minijeux" href="#">MINI-JEUX</a></div>
+        
+          
+        <div id="recherche_haut" >
+            <div class="contact">
             <a href="Conact.html">CONTACTEZ-NOUS</a>
         </div>
 
         <input type="search" id="search" name="search" placeholder="RECHERCHER"
                aria-label="Search through site content">
-        <button>Rechercher</button>
+            <button>Rechercher</button>
+        </div>
+    </nav>
+    </header>
        
-        <img src="9dd7aad81d3e113b401d6c0059bc88.jpg" alt="image informatique">
-
+    <article class="art1">
+        <img class="img_page" src="9dd7aad81d3e113b401d6c0059bc88.jpg">
+    </article>
+    
+    <div class="ab">
+        <article class="art2" id="text">
         <h1>TAF : Le salon Travail-Avenir-Formation</h1>
             <p>La Région organise les salons du Travail Avenir Formation (TAF) dont le but est de permettre à<br>
                chaque visiteur quel que soit son statut, de pouvoir accéder à toutes les informations sur les aides,<br>
@@ -55,6 +65,7 @@
         les offres de formation et de trouver un emploi en rencontrant<br> 
         directement les entreprises qui recrutent. Les visiteurs pourront<br> 
         découvrir un métier, définir un projet professionnel ou se réorienter vers des filières porteuses d’emploi<br> 
+    
         grâce à la Région et ses partenaires.
 
         <img src="MUY5NjQxOTIcURmxDx-P-3R8AEj_ZNZu.jpg" alt="salon_taf">
@@ -118,7 +129,8 @@
             <option value="tar_et_garonne">82-Tarn-et-Garonne</option>
         </select>
         <input type="submit" id="submit">
-
+        </article>
+    </div>
 
 
     </body>
