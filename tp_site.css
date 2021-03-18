@@ -48,15 +48,16 @@ img
 {
     display: flex;
     justify-content: space-around;
-    float: left;
+    
 
 }
 
 .img2
 {
-    width:70%;
-    height: 70%;
+    width:200px;
+    height:200px;
     margin-top: 200px;
+    float: left;
 
 }
 
@@ -64,10 +65,14 @@ img
 {
     background-color:rgb(255, 255, 255);
     border:2px solid red;
-    margin-top: 50px;
-    position: absolute;
-    left: 25%;
-    width:50%;
-    height: 700px;
+    height: 600px;
+    width:600px;
 }
 
+.histo
+{ 
+    width:500px;
+    height: 200px;
+
+
+}
