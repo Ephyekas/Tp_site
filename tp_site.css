@@ -189,10 +189,7 @@ a {
     text-decoration: none;
   }
   
-  .navigation{
-    font-family: monospace;
-  }
-  
+
   .menu {
     background: rgb(255, 205, 0);
     list-style: none;
@@ -203,7 +200,7 @@ a {
   .menu1 {
     color: #fff;
     background: rgb(255, 205, 0);
-    display: flex;
+    display: block;
     float: left;
     padding: 1rem;
     position: relative;
