@@ -3,6 +3,8 @@ body
     min-width:100%;
     min-height:100%;
 }
+
+/* En-tête */
 header
 {
     border:2px solid rgb(0, 0, 0);
@@ -29,8 +31,10 @@ div[id*="haut"]
     width: 50%;
 
 }
+/* En-tête */
 
-.art1
+/* image principale */
+.img
 {
     display: flex;
     justify-content: center;
@@ -43,7 +47,11 @@ div[id*="haut"]
     height: 300px;
     width:1400px;
 }
-.ab
+
+/* image principale */
+
+/* Articles de la page */
+.articles
 {
     display: flex;
     align-items: flex-start;
@@ -70,6 +78,7 @@ div[id*="haut"]
 
 }
 
+
 .html
 {
     text-align: center;
@@ -84,3 +93,4 @@ div[id*="haut"]
     background-color:white;
     font-family: mont;
 } 
+/* Articles de la page */
