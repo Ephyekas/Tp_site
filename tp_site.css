@@ -4,6 +4,7 @@ body
     min-height:100%;
 }
 
+/* En-tête */
 header
 {
     border:2px solid rgb(0, 0, 0);
@@ -34,8 +35,10 @@ div[id*="haut"]
     width: 50%;
 
 }
+/* En-tête */
 
-.art1
+/* image principale */
+.img
 {
     display: flex;
     justify-content: center;
@@ -48,7 +51,10 @@ div[id*="haut"]
     height: 300px;
     width:1400px;
 }
-.ab
+
+/* image principale */
+
+/* Article du site */
 {
     display: flex;
     align-items: flex-start;
@@ -64,6 +70,8 @@ div[id*="haut"]
     border-right: 1px dashed black;
 
 }
+/* Article du site */
+
 .img2
 {
     display: flex;
