@@ -192,16 +192,16 @@ a {
     font-family: monospace;
   }
   
-  ul {
-    background: darkorange;
+  .menu {
+    background: rgb(255, 205, 0);
     list-style: none;
     margin: 0;
     padding-left: 0;
   }
   
-  li {
+  .menu1 {
     color: #fff;
-    background: darkorange;
+    background: rgb(255, 205, 0);
     display: block;
     float: left;
     padding: 1rem;
@@ -210,16 +210,16 @@ a {
     transition-duration: 0.5s;
   }
     
-  li a {
+  .menu1 a {
     color: #fff;
   }
   
-  li:hover {
+.menu1:hover {
     background: red;
     cursor: pointer;
   }
   
-  ul li ul {
+  .menu li ul {
     background: orange;
     visibility: hidden;
     opacity: 0;
@@ -231,15 +231,15 @@ a {
     display: none;
   }
   
-  ul li:hover > ul,
-  ul li:focus-within > ul, /* this is the line we add */
-  ul li ul:hover {
+  .menu li:hover > ul,
+  .menu li:focus-within > ul, /* this is the line we add */
+  .menu li ul:hover {
     visibility: visible;
     opacity: 1;
     display: block;
   }
   
-  ul li ul li {
+ .menu li ul li {
     clear: both;
     width: 100%;
   }
