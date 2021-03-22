@@ -10,27 +10,37 @@
     </head>
 
     <body>
+        <header>
+            
+            <nav >
+               <img id="accueil_haut" src="6a00d8341bfe5d53ef01b7c94746d0970b-450wi.jpg">
         
-        <img src="6a00d8341bfe5d53ef01b7c94746d0970b-450wi.jpg">
+        <div id="nav_haut"> <!--Mieux organiser la barre de navigation en CSS-->
         
-        <div id="container"> <!--Mieux organiser la barre de navigation en CSS-->
-        <nav class="navbar">
             <a class="navbar-html" href="#">HTML</a>
             <a class="navbar-css" href="#">CSS</a>
             <a class="navbar-javascript" href="#">JAVASCRIPT</a>
-            <a class="navbar-minijeux" href="#">MINI-JEUX</a>
-        </nav>
-        </div>  
-        <div class="contact">
+            <a class="navbar-minijeux" href="#">MINI-JEUX</a></div>
+        
+          
+        <div id="recherche_haut" >
+            <div class="contact">
             <a href="Conact.html">CONTACTEZ-NOUS</a>
         </div>
 
         <input type="search" id="search" name="search" placeholder="RECHERCHER"
                aria-label="Search through site content">
-        <button>Rechercher</button>
+            <button>Rechercher</button>
+        </div>
+    </nav>
+    </header>
        
-        <img src="9dd7aad81d3e113b401d6c0059bc88.jpg" alt="image informatique">
-
+    <article class="img">
+        <img class="img_page" src="9dd7aad81d3e113b401d6c0059bc88.jpg">
+    </article>
+    
+    <div class="articles">
+        <article class="art2" id="text">
         <h1>TAF : Le salon Travail-Avenir-Formation</h1>
             <p>La Région organise les salons du Travail Avenir Formation (TAF) dont le but est de permettre à
                chaque visiteur quel que soit son statut, de pouvoir accéder à toutes les informations sur les aides,
@@ -158,13 +168,21 @@
             <option value="tar_et_garonne">82-Tarn-et-Garonne</option>
         </select>
         <input type="submit" id="submit">
+        
 
         <h2>Vous êtes visiteurs ?</h2>
             <p>Bienvenue dans nos salons dont l’entrée est gratuite. Des espaces distincts vous<br>
                permettront de répondre à vos problématiques.
             </p>
 
+<<<<<<< HEAD
         <img src="capture-d-ecran-2020-02-25-a-094924.png" alt="photo visiteur">
+=======
+            <img src="capture-d-ecran-2020-02-25-a-094924.png" alt="photo visiteur">
+            </article>
+            </div>
+
+>>>>>>> c626c615bbfd544d0ecbf4b603022b4707a9eb69
 
         <a href="#" class="btn btn-default">Retour en haut ↑</a>
     
