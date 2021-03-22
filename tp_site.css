@@ -53,8 +53,11 @@ nav
 {
     display: flex;
     flex-direction:row-reverse;
+
 }
 
+#search
+{}
 #nav_haut
 {
     word-spacing: 1rem;
@@ -213,7 +216,7 @@ footer
 
 
   .menu {
-    background: rgb(224, 183, 0);
+    background: #ffbb00;
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -221,7 +224,7 @@ footer
   
   .menu1 {
     color: #fff;
-    background: rgb(224, 183, 0);
+    background: #ffbb00;
     display: block;
     float: left;
     padding: 1rem;
@@ -240,7 +243,7 @@ footer
   }
   
   .menu li ul {
-    background: orange;
+    background: #ffbb00;
     visibility: hidden;
     opacity: 0;
     min-width: 5rem;
