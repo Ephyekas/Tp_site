@@ -95,6 +95,13 @@ button:hover
 
 /* image principale */
 
+/* Page principale */
+.educ
+{
+    display: flex;
+    justify-content: center;
+    
+}
 /* Article du site */
 .articles
 {
