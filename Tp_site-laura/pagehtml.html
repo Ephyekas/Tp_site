@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation du HTML</title>
+    <link href="tp_site.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/189c88a6ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header> 
+        <nav >
+            <img id="accueil_haut" src="6a00d8341bfe5d53ef01b7c94746d0970b-450wi.jpg">
+     
+     <div id="nav_haut"> <!--Mieux organiser la barre de navigation en CSS-->
+        <a class="navbar-html" href="pagehtml.html">HTML</a>
+         <a class="navbar-css" href="page_css.html">CSS</a>
+         <a class="navbar-javascript" href="pagejs.html">JAVASCRIPT</a>
+         <a class="navbar-biblijs" href="librairiejs.html">LIBRAIRIE JS</a>
+         <a class="navbar-minijeux" href="Pagejeu.html">MINI-JEUX</a></div>
+     
+       
+     <div id="recherche_haut" >
+         <div class="contact">
+         <a href="Conact.html">CONTACTEZ-NOUS</a>
+     </div>
+
+     <input type="search" id="search" name="search" placeholder="RECHERCHER"
+            aria-label="Search through site content">
+         <button>Rechercher</button>
+     </div>
+ </nav>
+ </header>
+    
+    <article class="img">
+        <img class="img_page" src="https://www.stickpng.com/fr/img/icones-logos-emojis/societes-de-technologie/logo-html5">
+    </article>
+ 
+    <div class="articles">
+    
+            <article class="histo">
+                <img class="img2" src="HTML5.png">
+                <ul><h2>HTML dans l'histoire</h2>
+                    <strong>1989-1992</strong>
+                    <li>Une des trois inventions du World Wide Web avec le HTTP et l'URL. HTML a été inventé pour permettre d'écrire des documents hypertextuels liant les différentes ressources d’Internet avec des hyperliens.</li>
+                    <strong>1993</strong>
+                    <li>NCSA Mosaic instaure deux inventions majeures du HTML IMG et les Formulaires. Ceci est les premiers pas vers l'uniformisation du langage HTML</li>
+                    <strong>1994</strong>
+                    <li>Avec l’apparition de Netscape Navigator 0.9 le 13 octobre 1994, le support de nombreux éléments de présentation est ajouté : attributs de texte, clignotement, centrage, etc. Le CSS commence à être pensé pour pouvoir gérer l'esthétique.</li>
+                    <strong>1995-1996</strong>
+                    <li>Création du HTML 2.0 et premiers brouillons du HTML 3.0.</li>
+                    <strong>1997</strong>
+                    <li>Le 18 décembre 1997, le W3C publie la spécification HTML 4.0 qui standardise de nombreuses extensions supportant les styles et les scripts, les cadres (frames) et les objets (inclusion généralisée de contenu) et ajoute bien d'autres possibilités.</li>
+                    <strong>2000-2006</strong>
+                    <li>Le développement de HTML en tant qu’application du Standard Generalized Markup Language (SGML) est officiellement abandonné au profit de XHTML, application de Extensible Markup Language (XML). Cependant, en 2004, des éditeurs de navigateurs web créent le web Hypertext Application Technology Working Group (WHATWG) dans le but, notamment, de relancer le développement du format HTML et de répondre aux nouveaux besoins sur une base technologique jugée plus aisément implémentable que celle du XHTML 2.0 en cours de conception. </li>
+                    <strong>De 2007 à nos jours</strong>
+                    <li>Ce n'est qu'en mars 2007 que la W3C décide de relancer le développement du html, avec à la tête des recherches Chris Wilson (Microsoft). Nous actuellement à la version 5 de HTML</li>
+                </ul>
+            </article>
+            <article class="art2">
+                <h1 class="html">Le HTML</h1>
+                <p>&ensp;&ensp;<strong>HTML</strong> signifie «<em> HyperText Markup Language </em>» qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript). <br><br>
+                    HTML fonctionne grâce à des « balises » qui sont insérées au sein d'un texte normal. Chacune de ces balises indique la signification de telle ou telle portion de texte dans le site. On parle d'« hypertexte » en référence aux liens qui connectent les pages web entre elles. C'est la mécanique originelle du « World Wide Web » que nous connaissons aujourd'hui. En écrivant et publiant des pages web, vous devenez un acteur du Web dès que votre site est accessible en ligne. <br><br>
+                    HTML permet d'inclure des images et d'autres contenus dans les pages web. Grâce à HTML, chacun peut créer des sites web aussi bien statiques que dynamiques. HTML est le langage qui permet de décrire la structure et le contenu d'un document web. Ce contenu est balisé par des éléments HTML comme :<br>
+                    <p class="chiant"><<span class="tag">head</span>>, <<span class="tag">title</span>>, <<span class="tag">body</span>>, <<span class="tag">header</span>>, <<span class="tag">footer</span>>,<<span class="tag">p</span>>, <<span class="tag">div</span>>, <<span class="tag">span</span>>, <<span class="tag">img</span>></p>
+                    Et bien d'autres encore. Ces éléments forment les blocs utilisés pour construire un site web. <br><br>
+                    En HTML, les balises sont insensibles à la casse et peuvent aussi bien être écrites en minuscules, en majuscules voire avec un mélange des deux. Autrement dit, la balise <<span class="tag">title</span>> pourrait très bien être écrite comme <<span class="tag">Title</span>>, <<span class="tag">TiTle</span>> ou d'une autre façon.</p><br><br>
+                <img id="ex" src="https://media.prod.mdn.mozit.cloud/attachments/2017/03/01/14739/093262f110c5848b82c4b4616fae7e8a/chat-grincheuxl.png">
+                <p>Les composants principaux de notre élément sont : <br><br>
+                    <strong>La balise ouvrante</strong><br>
+                    Celle-ci se compose du nom de l'élément (ici « p »), entre deux chevrons. Cela indique le début de l'élément, soit l'endroit à partir duquel celui-ci prend effet. Pour notre exemple, cela indique le début du paragraphe. <br><br>
+                    <strong>La balise fermante</strong><br>
+                    Ici on a également des chevrons et le nom de l'élément, auxquels on ajoute une barre oblique avant le nom de l'élément. Cela indique la fin de l'élément. Pour notre exemple, cela indique la fin du paragraphe. Oublier la balise fermante est une erreur courante de débutant et peut conduire à de curieux résultats. <br><br>
+                    <strong>Le contenu</strong><br>
+                    C'est le contenu de l'élément. Ici, c'est simplement du texte. <br><br>
+                    <strong>L'élément</strong><br>
+                    Il est composé de la balise ouvrante, de la balise fermante et du contenu. <br><br></p>
+                <img id="gif" src="https://www.nobledesktop.com/image/classExamples/html-intro/html-intro.gif">
+            </article>
+        </div>
+        <footer>
+            <ul class="foot1">
+                <li>
+                    <strong>Hôtel de Région de Toulouse</strong><br>
+                    22, boulevard du Maréchal-Juin 31406 Toulouse Cedex 9 <br>
+                    <img class="region" src="https://www.laregion.fr/local/cache-vignettes/L438xH195/rect-6bd95.jpg?1611581441">
+                </li>
+                <li>
+                    <strong>Hôtel de Région de Montpellier</strong><br>
+                    201 avenue de la Pompignane 34064 Montpellier cedex 02 <br>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/Occitanie"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/LaRegionOccitaniePyreneesMediterranee"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCpv8Xt9IzKZjzfxBngP2bVQ"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/laregionoccitanie/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://fr.linkedin.com/company/region-occitanie"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Nos dernières offres d'emploi</strong>
+                    <div class="emploi"> <a href="https://www.laregion.fr/Offres-emploi?id_offre=1200">Chargé.e de mission matériel roulant</a><br>
+                        Catégorie A </div>
+                        <div class="emploi"><a href="https://www.laregion.fr/Offres-emploi?id_offre=1199">Chargé-e de mission Territorial (site de Millau)</a><br>
+                        Catégorie A</div><br>
+                        <a href="https://www.laregion.fr/Les-offres-d-emploi">En savoir plus</a>
+                    </li>
+                    <li>
+                        <strong>Contact</strong><br>
+                        Composez le 3010 pour contacter la Région Occitanie <br>/ Pyrénées-Méditerranée (service et appel gratuits) <br>
+                        <a class="contact" href="https://www.laregion.fr/Contactez-la-Region">Nous contacter</a><br>
+                        <a class="contact" href="https://www.laregion.fr/-Les-Maisons-de-la-Region-">Les maisons de région</a>
+                    </li>
+            </ul>
+            <ul class="foot2">
+                <li>
+                    <a href="https://www.laregion.fr/">Accueil</a>
+                </li>
+                <li>
+                    <a href="https://www.laregion.fr/Mentions-legales">Mentions légales</a>
+                </li>
+                <li>
+                    <a href="https://www.laregion.fr/RGPD">Données personnelles et Cookies</a>
+                </li>
+                <li>
+                    <a href="https://www.laregion.fr/Espace-presse">Espace presse</a>
+                </li>
+                <li>
+                    <a href="https://www.laregion.fr/logo-occitanie">Télécharger le logo</a>
+                </li>
+                <li>
+                    <a href="https://www.laregion.fr/-Welcome-in-Occitanie-Pyrenees-Mediterranee-">English</a>
+                </li>
+                <li>
+                    <a href="https://data.laregion.fr/pages/accueil/">Open Data</a>
+                </li>
+                <li>
+                    <a href="https://www.laregion.fr/La-nouvelle-Commande-Publique">Marchés publics</a>
+                </li>
+                <li>
+                    <a href="https://www.laregion.fr/spip.php?page=plan">Plan du site</a>
+                </li>
+            </ul>
+        </footer>
+</body>
+</html>
