@@ -209,6 +209,12 @@ a:hover
     font-size: 1.0625em;
     font-weight: 500;
 }
+#ex {
+    width: 800px;
+}
+#gif {
+    width: 800px;
+}
 /* Articles de la page */
 
 /* Footer */
