@@ -70,6 +70,57 @@ a:hover
     color:rgb(193, 2, 48);
 }
 
+.menu0 {
+    background: #ffbb00;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+.menu2 {
+    color: #fff;
+    background: #ffbb00;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+.menu2 a {
+    color:black;
+  }
+  
+.menu2:hover {
+    background: white;
+    cursor: pointer;
+  }
+  
+.menu0 li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  .menu0 li:hover > ul,
+  .menu0 li:focus-within > ul, /* this is the line we add */
+  .menu0 li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+  }
+  
+ .menu li ul li {
+    clear: both;
+    width: 100%;
+  }
+
 #recherche_haut
 {
     display: flex;
