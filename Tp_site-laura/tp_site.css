@@ -95,13 +95,6 @@ button:hover
 
 /* image principale */
 
-/* Page principale */
-.educ
-{
-    display: flex;
-    justify-content: center;
-    
-}
 /* Article du site */
 .articles
 {
@@ -193,11 +186,9 @@ footer
 
 /* Menu déroulant */
 a {
-
-    color:black ;
-    list-style-type: none;
-}
-
+    text-decoration: none;
+  }
+  
 
   .menu {
     background: rgb(255, 205, 0);
