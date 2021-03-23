@@ -56,8 +56,7 @@ nav
 
 }
 
-#search
-{}
+
 #nav_haut
 {
     word-spacing: 1rem;
@@ -75,7 +74,7 @@ a:hover
 {
     color:rgb(193, 2, 48);
 }
-button:hover
+/* button:hover
 {
     position: fixed;
     left: 0;
@@ -96,7 +95,7 @@ button:hover
 {
     0% { opacity: 0;}
     100% {opacity: 1;}
-}
+} */
 /* En-tête */
 
 /* image principale */
@@ -215,14 +214,14 @@ footer
 /* Menu déroulant */
 
 
-  .menu {
+.menu {
     background: #ffbb00;
     list-style: none;
     margin: 0;
     padding-left: 0;
   }
   
-  .menu1 {
+.menu1 {
     color: #fff;
     background: #ffbb00;
     display: block;
@@ -233,7 +232,7 @@ footer
     transition-duration: 0.5s;
   }
     
-  .menu1 a {
+.menu1 a {
     color: #fff;
   }
   
@@ -242,7 +241,7 @@ footer
     cursor: pointer;
   }
   
-  .menu li ul {
+.menu li ul {
     background: #ffbb00;
     visibility: hidden;
     opacity: 0;
