@@ -29,10 +29,10 @@
                 <h1>Formulaire de contact</h1>
                 <form method="post" action="register.php">
                 <label for="nom">Nom (obligatoire)</label><br>
-                <input type="text" name="nom" id="nom"> <br></br>
+                <input type="text" name="nom" id="nom" required="required"> <br></br>
 
                 <label for="prenom">Prénom (obligatoire)</label><br>
-                <input type="text" name="prenom" id="prenom"><br></br>
+                <input type="text" name="prenom" id="prenom" required="required"><br></br>
 
                 <label for="adresse">Adresse</label><br>
                 <input type="text" name="adresse" id="adresse"><br></br>
@@ -47,7 +47,7 @@
                 <input type="text" name="phone" id="phone"><br></br>
 
                 <label for="courriel">Courriel (obligatoire)</label><br>
-                <input type="text" name="courriel" id="courriel" 
+                <input type="text" name="courriel" id="courriel" required="required"
                        pattern="[a-z0-9._-]+@[a-z0-9._-]+\.[a-z] {2,6}"> <br></br>
 
                 <label for="message">Message</label><br>
