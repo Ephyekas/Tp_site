@@ -36,6 +36,7 @@ nav
     display:flex;
     justify-content: space-evenly;
     align-items:center;
+    font-size: 0.75em;
 } 
 
 
@@ -52,8 +53,28 @@ nav
 {
     display: flex;
     flex-direction:row-reverse;
+
 }
 
+#search
+{}
+#nav_haut
+{
+    word-spacing: 1rem;
+    font-family: "montserrat-bold",Impact, 'Arial Narrow Bold', sans-serif;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color:rgb(193, 2, 48);
+}
 button:hover
 {
     position: fixed;
@@ -95,6 +116,13 @@ button:hover
 
 /* image principale */
 
+/* Page principale */
+.educ
+{
+    display: flex;
+    justify-content: center;
+    
+}
 /* Article du site */
 .articles
 {
@@ -185,13 +213,10 @@ footer
 }
 
 /* Menu déroulant */
-a {
-    text-decoration: none;
-  }
-  
+
 
   .menu {
-    background: rgb(255, 205, 0);
+    background: #ffbb00;
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -199,7 +224,7 @@ a {
   
   .menu1 {
     color: #fff;
-    background: rgb(255, 205, 0);
+    background: #ffbb00;
     display: block;
     float: left;
     padding: 1rem;
@@ -218,7 +243,7 @@ a {
   }
   
   .menu li ul {
-    background: orange;
+    background: #ffbb00;
     visibility: hidden;
     opacity: 0;
     min-width: 5rem;
