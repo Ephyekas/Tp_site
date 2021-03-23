@@ -11,8 +11,7 @@
 <body>
     <header>
         <nav>
-            
-                <img id="accueil_haut" src="6a00d8341bfe5d53ef01b7c94746d0970b-450wi.jpg">
+                <img id="accueil_haut" src="https://www.laregion.fr/local/cache-vignettes/L438xH195/rect-6bd95.jpg?1611581441">
          
          <div id="nav_haut"> <!--Mieux organiser la barre de navigation en CSS-->
          
@@ -20,25 +19,84 @@
              <a class="navbar-css" href="page_css.html">CSS</a>
              <a class="navbar-javascript" href="pagejs.html">JAVASCRIPT</a>
              <a class="navbar-biblijs" href="librairiejs.html">LIBRAIRIE JS</a>
-             <ul>
-                <li><a class="navbar-minijeux" href="Pagejeu.html">MINI-JEUX</a></li>
-                <ul>
-                   <li class="menu1"><a href="jeucodemonkey.html">HTML</a></li>
-                   <li class="menu1"><a href="Pagejeu.html">CSS</a></li>
-                   <li class="menu1"><a href="jeufroggy.html">Flexbox</a></li>
-                   <li><a href="jeucodeingame.html">JavaScript</a></li>
-                </ul>
-            </ul></div>
+
+             
+        </div>
+         
            
          <div id="recherche_haut" >
-             <div class="contact">
-             <a href="Conact.html">CONTACTEZ-NOUS</a>
-         </div>
+
+            <ul class="menu0">
+                <li class="menu2"><a href="Pagejeu.html">MINI-JEUX</a>
+                <ul class="menu0">
+                    <li class="menu2"><a href="jeucodemonkey.html"></a>HTML</a></li>
+                    <li class="menu2"><a href="Pagejeu.html">CSS</a></li>
+                    <li class="menu2"><a href="jeufroggy.html">Flexbox</a></li>
+                    <li class="menu2"><a href="jeucodeingame.html">JavaScript</a></li>
+                </ul>
+                </li>
+            </ul>
     
-         <input type="search" id="search" name="search" placeholder="RECHERCHER"
-                aria-label="Search through site content">
-             <button>Rechercher</button>
-         </div>
+                    <ul class="menu0" id="recherche">
+                        <li class="menu2">RECHERCHE
+                        <ul class="menu0">
+                            <li class="menu2"><input type="search" id="search" name="search" placeholder="RECHERCHER"
+                aria-label="Search through site content"></li>
+                
+                        </ul>
+                        </li>
+                    </ul>
+                
+                    <ul class="menu">
+                        <li class="menu1">CONTACTEZ-NOUS
+                    <ul class="menu"> 
+                        <li class="menu1"><h1>Contact</h1>
+        <h2>Par téléphone</h2>
+            <p>Composez le 3010 pour contacter la Région Occitanie / Pyrénées-Méditerranée (service et appel gratuits)</p>
+        <h2>Par courrier postal</h2>
+            
+                <strong>Hôtel de Région Toulouse</strong><br>
+                <p>
+                22, boulevard du maréchal Juin<br>
+                31406 Toulouse Cedex 9</p>
+            
+                <strong>Hôtel de Région Montpellier</strong><br>
+                <p>
+                201 avenue de la Pompignane<br>
+                34064 Montpellier cedex 02</p>
+
+                <h1>Formulaire de contact</h1>
+                <form method="post" action="register.php">
+                <label for="nom">Nom (obligatoire)</label><br>
+                <input type="text" name="nom" id="nom"> <br></br>
+
+                <label for="prenom">Prénom (obligatoire)</label><br>
+                <input type="text" name="prenom" id="prenom"><br></br>
+
+                <label for="adresse">Adresse</label><br>
+                <input type="text" name="adresse" id="adresse"><br></br>
+
+                <label for="postal">Code postal</label><br>
+                <input type="text" name="postal" id="postal"><br></br>
+
+                <label for="organisme">Organisme</label><br>
+                <input type="text" name="organisme" id="organisme"><br></br>
+
+                <label for="phone">Téléphone</label><br>
+                <input type="text" name="phone" id="phone"><br></br>
+
+                <label for="courriel">Courriel (obligatoire)</label><br>
+                <input type="text" name="courriel" id="courriel" 
+                       pattern="[a-z0-9._-]+@[a-z0-9._-]+\.[a-z] {2,6}"> <br></br>
+
+                <label for="message">Message</label><br>
+                <textarea name="textarea" rows="5" cols="30" placeholder="Ecrire un message"></textarea><br></br>
+                <input type="submit" id="submit"></li>
+                
+                </ul>
+                </li>
+         </ul>
+        </div>
      </nav>
      </header>
         

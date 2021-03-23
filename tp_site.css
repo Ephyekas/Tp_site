@@ -9,7 +9,7 @@ html
 body {
     
     font-family: "montserrat-bold", arial, helvetica;
-    text-align: justify;
+    text-align: left;
 }
 
 @font-face
@@ -39,7 +39,6 @@ nav
     font-size: 0.75em;
 } 
 
-
 #accueil_haut
 {
     width:200px;
@@ -59,6 +58,7 @@ nav
 
 }
 
+
 a
 {
     text-decoration: none;
@@ -68,18 +68,19 @@ a
 a:hover
 {
     color:rgb(193, 2, 48);
+    
 }
 
 .menu0 {
-    background: #ffbb00;
+
     list-style: none;
     margin: 0;
     padding-left: 0;
   }
   
 .menu2 {
-    color: #fff;
-    background: #ffbb00;
+    color:black;
+    background:white;
     display: block;
     float: left;
     padding: 1rem;
@@ -95,6 +96,7 @@ a:hover
 .menu2:hover {
     background: white;
     cursor: pointer;
+    text-decoration: underline;
   }
   
 .menu0 li ul {
@@ -114,6 +116,7 @@ a:hover
     visibility: visible;
     opacity: 1;
     display: flex;
+    flex-direction:column;
   }
   
  .menu li ul li {
@@ -157,22 +160,53 @@ a:hover
 
 /* image principale */
 
-/* Page principale */
+
+/*  */
+
 .educ
 {
-    display: flex;
-    justify-content: center;
+    color: rgb(193, 2, 48);
+    text-decoration: underline;
     
 }
-/* Article du site */
+
+.educ:hover
+{
+    text-decoration: none;
+}
+
+.educ::before
+{
+
+    content:"↑..";
+}
+
 .articles
 {
     display: flex;
     align-items: flex-start;
     margin-top: -50px;
     margin-left: -100px;
-    justify-content: center
-} 
+    justify-content: center;
+}
+
+.titre
+{
+    font-size: 2.75em;
+    font-family: "montserrat-bold", Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.point
+{
+    list-style: none;
+}
+.point::before
+{
+
+    content:"↑..";
+}
+
 .histo
 {
     width:300px;
@@ -181,8 +215,9 @@ a:hover
     border-right: 1px dashed black;
 
 }
-/* Article du site */
+/*  */
 
+/* Articles de la page */
 .img2
 {
     display: flex;
@@ -204,7 +239,7 @@ a:hover
     border-radius: 10px;
     flex: 0.50;
     width: 500px;
-    padding: 20px;
+    padding: 30px 50px 0 50px;
     background-color:white;
     font-size: 1.0625em;
     font-weight: 500;
@@ -214,6 +249,12 @@ a:hover
 }
 #gif {
     width: 800px;
+}
+
+#three
+{
+    background-color: #ffcd00;
+    padding:5px;
 }
 /* Articles de la page */
 
