@@ -22,7 +22,7 @@ body {
 @font-face
 {
     font-family:"montserrat";
-    src:url(Montserrat/Montserrat-Medium.ttf);
+    src:url(Montserrat/Montserrat-Regular.ttf);
 }
 /* En-tête */
 
@@ -161,7 +161,32 @@ a:hover
 /* image principale */
 
 
-/*  */
+/* sommaire */
+
+.sommaire
+{
+    background-color: #f3f6f9;
+    padding: 20px;
+    font-family: "montserrat-bold",Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#sommaire
+{
+    border-bottom: #ffbb00 solid 4px;
+
+    
+}
+.point
+{
+    list-style: none;
+}
+
+.point::before
+{
+
+    content:"→";
+}
 
 .educ
 {
@@ -177,9 +202,10 @@ a:hover
 
 .educ::before
 {
-
-    content:"↑..";
+ content:"↑..";
 }
+
+/* sommaire */
 
 .articles
 {
@@ -188,6 +214,7 @@ a:hover
     margin-top: -50px;
     margin-left: -100px;
     justify-content: center;
+    font-family: "montserrat",Arial, Helvetica, sans-serif;
 }
 
 .titre
@@ -197,15 +224,7 @@ a:hover
     font-weight: bolder;
 }
 
-.point
-{
-    list-style: none;
-}
-.point::before
-{
 
-    content:"↑..";
-}
 
 .histo
 {
@@ -239,10 +258,11 @@ a:hover
     border-radius: 10px;
     flex: 0.50;
     width: 500px;
-    padding: 30px 50px 0 50px;
+    padding: 30px 50px 20px 50px;
     background-color:white;
     font-size: 1.0625em;
     font-weight: 500;
+
 }
 #ex {
     width: 800px;
