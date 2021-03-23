@@ -39,7 +39,6 @@ nav
     font-size: 0.75em;
 } 
 
-
 #accueil_haut
 {
     width:200px;
@@ -59,6 +58,10 @@ nav
 
 }
 
+[class*="nav"]
+{
+    border-bottom:#ffbb00;
+}
 a
 {
     text-decoration: none;
@@ -68,18 +71,19 @@ a
 a:hover
 {
     color:rgb(193, 2, 48);
+    
 }
 
 .menu0 {
-    background: #ffbb00;
+
     list-style: none;
     margin: 0;
     padding-left: 0;
   }
   
 .menu2 {
-    color: #fff;
-    background: #ffbb00;
+    color:black;
+    background:white;
     display: block;
     float: left;
     padding: 1rem;
@@ -95,6 +99,7 @@ a:hover
 .menu2:hover {
     background: white;
     cursor: pointer;
+    text-decoration: underline;
   }
   
 .menu0 li ul {
@@ -114,6 +119,7 @@ a:hover
     visibility: visible;
     opacity: 1;
     display: flex;
+    flex-direction:column;
   }
   
  .menu li ul li {
